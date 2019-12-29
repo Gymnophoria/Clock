@@ -1,0 +1,27 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "Discord bot for various clock functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gymnophoria/Clock.git"
+  },
+  "private": true,
+  "author": "Gymnophoria",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gymnophoria/Clock/issues"
+  },
+  "homepage": "https://github.com/Gymnophoria/Clock#readme",
+  "dependencies": {
+    "@discordjs/uws": "^11.149.1",
+    "bufferutil": "^4.0.1",
+    "discord.js": "^11.5.1",
+    "erlpack": "github:discordapp/erlpack",
+    "libsodium-wrappers": "^0.7.6"
+  }
+}
